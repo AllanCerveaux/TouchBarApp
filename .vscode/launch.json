@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:custom-touchbar}",
+            "name": "Debug custom-touchbar",
+            "program": "${workspaceFolder:custom-touchbar}/.build/debug/custom-touchbar",
+            "preLaunchTask": "swift: Build Debug custom-touchbar"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:custom-touchbar}",
+            "name": "Release custom-touchbar",
+            "program": "${workspaceFolder:custom-touchbar}/.build/release/custom-touchbar",
+            "preLaunchTask": "swift: Build Release custom-touchbar"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:custom-touchbar}",
+            "name": "Debug TouchBarApp",
+            "program": "${workspaceFolder:custom-touchbar}/.build/debug/TouchBarApp",
+            "preLaunchTask": "swift: Build Debug TouchBarApp"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:custom-touchbar}",
+            "name": "Release TouchBarApp",
+            "program": "${workspaceFolder:custom-touchbar}/.build/release/TouchBarApp",
+            "preLaunchTask": "swift: Build Release TouchBarApp"
+        }
+    ]
+}
